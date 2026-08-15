@@ -1,0 +1,397 @@
+disabled-worlds:
+  - 'example_world'
+
+prefix: '&x&2&D&F&F&0&0&lCHATGAMES'
+
+allow_starting_from_disabled: true
+
+min_players_online: 1
+
+time_minutes: 25
+
+timeToGuess_seconds: 20
+
+use-permission-toplay: false
+
+playSound: true
+sound: 'ENTITY_PLAYER_LEVELUP'
+
+
+unscramble:
+    enable: true
+    
+    case-sensitive: true
+    titleMessage: '&b%word%'
+    subtitleMessage: '&aOrdena la palabra'
+
+unreverse:
+    enable: true
+    
+    case-sensitive: true
+    titleMessage: '&b%word%'
+    subtitleMessage: '&aEscribe al derecho'
+
+reaction:
+    enable: true
+    
+    case-sensitive: true
+    titleMessage: '&b%word%'
+    subtitleMessage: '&aEscribe'
+    
+fillout:
+    enable: true
+    
+    case-sensitive: true
+    titleMessage: '&b%word%'
+    subtitleMessage: '&aCompleta'
+
+random:
+    enable: true
+    
+    case-sensitive: true
+    length: 6
+    character_type: ALPHANUMERIC
+    
+    titleMessage: '&b%random%'
+    subtitleMessage: '&aEscribe'
+
+math:
+    enable: true
+    
+    case-sensitive: false
+    difficulty: 2
+    operators:
+      - '+'
+      - '-'
+      - '*'
+      - '/'
+      
+    titleMessage: '&b%equation%'
+    subtitleMessage: '&aResuelve'
+    
+variable:
+    enable: true
+    
+    case-sensitive: false
+    
+    titleMessage: '&bRESUELVE'
+    subtitleMessage: '&aPara &7`&b%symbol%&7`'
+    
+    result-min: 20
+    result-max: 100
+    
+    toGet: '✗'
+    data:
+      - '✯;10'
+      - '♛;15'
+      - '❅;20'
+      - '♫;25'
+          
+trivia:
+    enable: true
+
+    case-sensitive: false
+    titleMessage: '&bTRIVIA'
+    subtitleMessage: '&a¡Revisa el chat!'
+
+    data:
+      1:
+        question: '¿Cuántos lados tiene un dado? (número)'
+        answer: '6'
+      2:
+        question: '¿En qué planeta vivimos?'
+        answer: 'Tierra'
+      3:
+        question: '¿Cómo se llama el protagonista clásico masculino de Minecraft?'
+        answer: 'Steve'
+      4:
+        question: '¿Cómo se llama el personaje clásico femenino de Minecraft?'
+        answer: 'Alex'
+      5:
+        question: '¿Qué mob verde explota cuando se acerca a un jugador?'
+        answer: 'Creeper'
+      6:
+        question: '¿Qué mineral se usa principalmente para fabricar herramientas de color azul claro?'
+        answer: 'Diamante'
+      7:
+        question: '¿Qué material necesitas para construir un portal al Nether?'
+        answer: 'Obsidiana'
+      8:
+        question: '¿Cómo se llama la dimensión donde aparece el Ender Dragon?'
+        answer: 'End'
+      9:
+        question: '¿Qué mob deja pólvora al morir?'
+        answer: 'Creeper'
+      10:
+        question: '¿Qué mob deja huesos y flechas al morir?'
+        answer: 'Esqueleto'
+      11:
+        question: '¿Qué mob puede teletransportarse y odia que lo mires a los ojos?'
+        answer: 'Enderman'
+      12:
+        question: '¿Qué objeto se usa para domesticar lobos?'
+        answer: 'Hueso'
+      13:
+        question: '¿Qué alimento se obtiene al cocinar carne de vaca?'
+        answer: 'Filete'
+      14:
+        question: '¿Qué herramienta se usa para minar piedra más rápido?'
+        answer: 'Pico'
+      15:
+        question: '¿Qué herramienta se usa para cortar madera más rápido?'
+        answer: 'Hacha'
+      16:
+        question: '¿Qué herramienta se usa para cavar tierra y arena más rápido?'
+        answer: 'Pala'
+      17:
+        question: '¿Qué herramienta se usa para labrar la tierra?'
+        answer: 'Azada'
+      18:
+        question: '¿Qué objeto permite dormir y establecer el punto de reaparición?'
+        answer: 'Cama'
+      19:
+        question: '¿Qué bloque se utiliza para fabricar la mayoría de objetos?'
+        answer: 'Mesa'
+      20:
+        question: '¿Qué mineral rojo se utiliza en mecanismos?'
+        answer: 'Redstone'
+      21:
+        question: '¿Qué mineral verde sirve para comerciar con aldeanos?'
+        answer: 'Esmeralda'
+      22:
+        question: '¿Qué mineral amarillo se funde para obtener lingotes de oro?'
+        answer: 'Oro'
+      23:
+        question: '¿Qué mineral oscuro se usa como combustible básico?'
+        answer: 'Carbon'
+      24:
+        question: '¿Qué material se obtiene al fundir mineral de hierro?'
+        answer: 'Hierro'
+      25:
+        question: '¿Qué líquido causa daño y puede encender bloques?'
+        answer: 'Lava'
+      26:
+        question: '¿Qué líquido apaga el fuego?'
+        answer: 'Agua'
+      27:
+        question: '¿Cómo se llama la dimensión de color rojizo con lava y fortalezas?'
+        answer: 'Nether'
+      28:
+        question: '¿Qué mob hostil vuela y dispara bolas de fuego en el Nether?'
+        answer: 'Ghast'
+      29:
+        question: '¿Qué criatura protege muchas aldeas?'
+        answer: 'Golem'
+      30:
+        question: '¿Qué mob aparece de noche y arde con la luz del sol, además de atacar cuerpo a cuerpo?'
+        answer: 'Zombie'
+      31:
+        question: '¿Qué bloque se usa para guardar objetos?'
+        answer: 'Cofre'
+      32:
+        question: '¿Qué objeto se utiliza para pescar?'
+        answer: 'Caña'
+      33:
+        question: '¿Qué objeto se necesita para encender un portal al Nether?'
+        answer: 'Mechero'
+      34:
+        question: '¿Qué alimento dorado puede dar efectos especiales?'
+        answer: 'Manzana'
+      35:
+        question: '¿Qué objeto se lanza para teletransportarse a corta distancia?'
+        answer: 'Perla'
+      36:
+        question: '¿Qué criatura del End se utiliza para fabricar cajas portátiles con cofres?'
+        answer: 'Shulker'
+      37:
+        question: '¿Qué objeto permite volar planeando después de visitar el End?'
+        answer: 'Elytra'
+      38:
+        question: '¿Qué bloque transparente se fabrica fundiendo arena?'
+        answer: 'Vidrio'
+      39:
+        question: '¿Qué bloque cae por gravedad y suele encontrarse en playas?'
+        answer: 'Arena'
+      40:
+        question: '¿Qué bloque explosivo se fabrica con pólvora y arena?'
+        answer: 'TNT'
+      41:
+        question: '¿Qué animal da lana al esquilarlo?'
+        answer: 'Oveja'
+      42:
+        question: '¿Qué animal produce leche al usar un cubo sobre él?'
+        answer: 'Vaca'
+      43:
+        question: '¿Qué animal puede ser montado usando una silla?'
+        answer: 'Caballo'
+      44:
+        question: '¿Qué cultivo se utiliza para fabricar pan?'
+        answer: 'Trigo'
+      45:
+        question: '¿Qué cultivo naranja puede tallarse como decoración?'
+        answer: 'Calabaza'
+      46:
+        question: '¿Qué objeto se utiliza para orientarse hacia el punto de aparición del mundo?'
+        answer: 'Brujula'
+      47:
+        question: '¿Qué objeto muestra una zona explorada del mundo?'
+        answer: 'Mapa'
+      48:
+        question: '¿Qué bloque ilumina y se fabrica con carbón y un palo?'
+        answer: 'Antorcha'
+      49:
+        question: '¿Qué objeto protege al jugador de algunos ataques cuando se sostiene?'
+        answer: 'Escudo'
+      50:
+        question: '¿Qué material es más resistente, hierro o diamante?'
+        answer: 'Diamante'
+      51:
+        question: '¿Cuál es el satélite natural de la Tierra?'
+        answer: 'Luna'
+      52:
+        question: '¿Cuál es la estrella del sistema solar?'
+        answer: 'Sol'
+      53:
+        question: '¿Cuántos días tiene una semana?'
+        answer: '7'
+      54:
+        question: '¿Cuántos meses tiene un año?'
+        answer: '12'
+      55:
+        question: '¿Cuántas horas tiene un día?'
+        answer: '24'
+      56:
+        question: '¿Cuántos minutos tiene una hora?'
+        answer: '60'
+      57:
+        question: '¿Cuántos segundos tiene un minuto?'
+        answer: '60'
+      58:
+        question: '¿Cuántos lados tiene un triángulo?'
+        answer: '3'
+      59:
+        question: '¿Cuántos lados tiene un cuadrado?'
+        answer: '4'
+      60:
+        question: '¿Cuántos lados tiene un pentágono?'
+        answer: '5'
+      61:
+        question: '¿Cuántos lados tiene un hexágono?'
+        answer: '6'
+      62:
+        question: '¿Cuánto es 5 por 5?'
+        answer: '25'
+      63:
+        question: '¿Cuánto es 10 más 15?'
+        answer: '25'
+      64:
+        question: '¿Cuánto es 100 dividido entre 10?'
+        answer: '10'
+      65:
+        question: '¿Cuánto es 9 por 9?'
+        answer: '81'
+      66:
+        question: '¿Cuánto es 50 menos 20?'
+        answer: '30'
+      67:
+        question: '¿Cuál es la capital del Perú?'
+        answer: 'Lima'
+      68:
+        question: '¿En qué continente se encuentra Perú?'
+        answer: 'America'
+      69:
+        question: '¿Cuál es el océano más grande del planeta?'
+        answer: 'Pacifico'
+      70:
+        question: '¿Cuál es el planeta más cercano al Sol?'
+        answer: 'Mercurio'
+      71:
+        question: '¿Cuál es el planeta conocido como el planeta rojo?'
+        answer: 'Marte'
+      72:
+        question: '¿Cuál es el planeta más grande del sistema solar?'
+        answer: 'Jupiter'
+      73:
+        question: '¿Qué planeta es famoso por sus grandes anillos?'
+        answer: 'Saturno'
+      74:
+        question: '¿Qué gas necesitan los humanos para respirar?'
+        answer: 'Oxigeno'
+      75:
+        question: '¿Qué líquido cubre gran parte de la superficie terrestre?'
+        answer: 'Agua'
+      76:
+        question: '¿A qué temperatura en grados Celsius se congela el agua?'
+        answer: '0'
+      77:
+        question: '¿A qué temperatura en grados Celsius hierve el agua al nivel del mar?'
+        answer: '100'
+      78:
+        question: '¿Qué animal es conocido como el rey de la selva?'
+        answer: 'Leon'
+      79:
+        question: '¿Qué animal terrestre tiene el cuello muy largo?'
+        answer: 'Jirafa'
+      80:
+        question: '¿Qué animal es el más grande del planeta?'
+        answer: 'Ballena'
+      81:
+        question: '¿Qué insecto produce miel?'
+        answer: 'Abeja'
+      82:
+        question: '¿Qué ave no vuela y vive principalmente en zonas frías del hemisferio sur?'
+        answer: 'Pinguino'
+      83:
+        question: '¿Qué órgano bombea la sangre por el cuerpo?'
+        answer: 'Corazon'
+      84:
+        question: '¿Qué órgano usamos principalmente para respirar?'
+        answer: 'Pulmon'
+      85:
+        question: '¿Cuántos dedos tiene normalmente una persona entre ambas manos?'
+        answer: '10'
+      86:
+        question: '¿Cuántos colores tiene tradicionalmente el arcoíris?'
+        answer: '7'
+      87:
+        question: '¿Qué instrumento se utiliza para medir la temperatura?'
+        answer: 'Termometro'
+      88:
+        question: '¿Qué instrumento se utiliza para ver objetos muy pequeños?'
+        answer: 'Microscopio'
+      89:
+        question: '¿Qué instrumento se utiliza para observar estrellas y planetas lejanos?'
+        answer: 'Telescopio'
+      90:
+        question: '¿Qué metal precioso tiene el símbolo químico Au?'
+        answer: 'Oro'
+      91:
+        question: '¿Qué elemento químico tiene el símbolo O?'
+        answer: 'Oxigeno'
+      92:
+        question: '¿Qué elemento químico tiene el símbolo Fe?'
+        answer: 'Hierro'
+      93:
+        question: '¿Qué idioma se habla principalmente en Brasil?'
+        answer: 'Portugues'
+      94:
+        question: '¿Cuál es la capital de Argentina?'
+        answer: 'Buenos Aires'
+      95:
+        question: '¿Cuál es la capital de Chile?'
+        answer: 'Santiago'
+      96:
+        question: '¿Cuál es la capital de Francia?'
+        answer: 'Paris'
+      97:
+        question: '¿Cuál es la capital de Japón?'
+        answer: 'Tokio'
+      98:
+        question: '¿Cuál es el animal símbolo nacional más conocido de Australia?'
+        answer: 'Canguro'
+      99:
+        question: '¿Qué deporte se juega principalmente con una pelota y dos arcos, usando los pies?'
+        answer: 'Futbol'
+      100:
+        question: '¿Cuántos jugadores tiene un equipo de fútbol en el campo al comenzar un partido?'
+        answer: '11'

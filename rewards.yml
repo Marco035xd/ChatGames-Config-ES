@@ -1,0 +1,408 @@
+
+unscramble:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 250'
+            - '[consolecmd] minecraft:give %player% minecraft:coal 12'
+            - '[playermsg] &aRecompensa: &e$250 &8+ &f12 de carbón&a.'
+        reward_2:
+          chance: 30
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 4'
+            - '[playermsg] &aBonus: &f4 lingotes de hierro&a.'
+        reward_3:
+          chance: 20
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone 12'
+            - '[playermsg] &aBonus: &f12 de redstone&a.'
+        reward_4:
+          chance: 12
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:lapis_block 1'
+            - '[playermsg] &aBonus: &f1 bloque de lapislázuli&a.'
+        reward_5:
+          chance: 8
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 3'
+            - '[playermsg] &aBonus: &f3 lingotes de oro&a.'
+        reward_6:
+          chance: 4
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 1'
+            - '[playermsg] &aBonus: &f1 esmeralda&a.'
+        reward_7:
+          chance: 2
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+        reward_8:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de hierro&e.'
+
+unreverse:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 300'
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 5'
+            - '[playermsg] &aRecompensa: &e$300 &8+ &f5 lingotes de hierro&a.'
+        reward_2:
+          chance: 30
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:coal 16'
+            - '[playermsg] &aBonus: &f16 de carbón&a.'
+        reward_3:
+          chance: 20
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone 16'
+            - '[playermsg] &aBonus: &f16 de redstone&a.'
+        reward_4:
+          chance: 15
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 3'
+            - '[playermsg] &aBonus: &f3 lingotes de oro&a.'
+        reward_5:
+          chance: 10
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:bread 8'
+            - '[playermsg] &aBonus: &f8 panes&a.'
+        reward_6:
+          chance: 6
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 1'
+            - '[playermsg] &aBonus: &f1 esmeralda&a.'
+        reward_7:
+          chance: 3
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+        reward_8:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de oro&e.'
+
+reaction:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 350'
+            - '[consolecmd] minecraft:give %player% minecraft:redstone 16'
+            - '[playermsg] &aRecompensa: &e$350 &8+ &f16 de redstone&a.'
+        reward_2:
+          chance: 35
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:coal 16'
+            - '[playermsg] &aBonus: &f16 de carbón&a.'
+        reward_3:
+          chance: 25
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 5'
+            - '[playermsg] &aBonus: &f5 lingotes de hierro&a.'
+        reward_4:
+          chance: 15
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:arrow 16'
+            - '[playermsg] &aBonus: &f16 flechas&a.'
+        reward_5:
+          chance: 10
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 3'
+            - '[playermsg] &aBonus: &f3 lingotes de oro&a.'
+        reward_6:
+          chance: 6
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 2'
+            - '[playermsg] &aBonus: &f2 esmeraldas&a.'
+        reward_7:
+          chance: 3
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+        reward_8:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone_block 2'
+            - '[playermsg] &eBonus especial: &f2 bloques de redstone&e.'
+
+clickable:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 5'
+            - '[playermsg] &aRecompensa: &f5 lingotes de hierro&a.'
+        reward_2:
+          chance: 20
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 3'
+            - '[playermsg] &aBonus: &f3 lingotes de oro&a.'
+        reward_3:
+          chance: 5
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+
+fillout:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 350'
+            - '[consolecmd] minecraft:give %player% minecraft:lapis_block 1'
+            - '[playermsg] &aRecompensa: &e$350 &8+ &f1 bloque de lapislázuli&a.'
+        reward_2:
+          chance: 35
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:coal 16'
+            - '[playermsg] &aBonus: &f16 de carbón&a.'
+        reward_3:
+          chance: 25
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 6'
+            - '[playermsg] &aBonus: &f6 lingotes de hierro&a.'
+        reward_4:
+          chance: 18
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone 16'
+            - '[playermsg] &aBonus: &f16 de redstone&a.'
+        reward_5:
+          chance: 12
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 4'
+            - '[playermsg] &aBonus: &f4 lingotes de oro&a.'
+        reward_6:
+          chance: 7
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:ender_pearl 2'
+            - '[playermsg] &aBonus: &f2 perlas de Ender&a.'
+        reward_7:
+          chance: 4
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+        reward_8:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de hierro&e.'
+
+hoverable:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 3'
+            - '[playermsg] &aRecompensa: &f3 lingotes de oro&a.'
+        reward_2:
+          chance: 20
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 1'
+            - '[playermsg] &aBonus: &f1 esmeralda&a.'
+        reward_3:
+          chance: 5
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+
+random:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 400'
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 4'
+            - '[playermsg] &aRecompensa: &e$400 &8+ &f4 lingotes de oro&a.'
+        reward_2:
+          chance: 40
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 6'
+            - '[playermsg] &aBonus: &f6 lingotes de hierro&a.'
+        reward_3:
+          chance: 30
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone 16'
+            - '[playermsg] &aBonus: &f16 de redstone&a.'
+        reward_4:
+          chance: 20
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:lapis_block 1'
+            - '[playermsg] &aBonus: &f1 bloque de lapislázuli&a.'
+        reward_5:
+          chance: 12
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 2'
+            - '[playermsg] &aBonus: &f2 esmeraldas&a.'
+        reward_6:
+          chance: 8
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:obsidian 2'
+            - '[playermsg] &aBonus: &f2 bloques de obsidiana&a.'
+        reward_7:
+          chance: 5
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+        reward_8:
+          chance: 3
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:golden_apple 1'
+            - '[playermsg] &6Bonus raro: &f1 manzana dorada&6.'
+        reward_9:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de oro&e.'
+
+variable:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 600'
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 2'
+            - '[playermsg] &aRecompensa: &e$600 &8+ &f2 esmeraldas&a.'
+        reward_2:
+          chance: 40
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 8'
+            - '[playermsg] &aBonus: &f8 lingotes de hierro&a.'
+        reward_3:
+          chance: 30
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 4'
+            - '[playermsg] &aBonus: &f4 lingotes de oro&a.'
+        reward_4:
+          chance: 20
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone_block 1'
+            - '[playermsg] &aBonus: &f1 bloque de redstone&a.'
+        reward_5:
+          chance: 12
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:lapis_block 2'
+            - '[playermsg] &aBonus: &f2 bloques de lapislázuli&a.'
+        reward_6:
+          chance: 8
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &bBonus raro: &f1 diamante&b.'
+        reward_7:
+          chance: 4
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de hierro&e.'
+        reward_8:
+          chance: 2
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:golden_apple 1'
+            - '[playermsg] &6Bonus raro: &f1 manzana dorada&6.'
+        reward_9:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de esmeralda&e.'
+
+math:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 500'
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &aRecompensa: &e$500 &8+ &f1 diamante&a.'
+        reward_2:
+          chance: 45
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 8'
+            - '[playermsg] &aBonus: &f8 lingotes de hierro&a.'
+        reward_3:
+          chance: 30
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 5'
+            - '[playermsg] &aBonus: &f5 lingotes de oro&a.'
+        reward_4:
+          chance: 20
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone_block 2'
+            - '[playermsg] &aBonus: &f2 bloques de redstone&a.'
+        reward_5:
+          chance: 12
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 2'
+            - '[playermsg] &aBonus: &f2 esmeraldas&a.'
+        reward_6:
+          chance: 8
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:obsidian 3'
+            - '[playermsg] &aBonus: &f3 bloques de obsidiana&a.'
+        reward_7:
+          chance: 5
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de hierro&e.'
+        reward_8:
+          chance: 3
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_block 1'
+            - '[playermsg] &6Bonus raro: &f1 bloque de oro&6.'
+        reward_9:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond_block 1'
+            - '[playermsg] &d&l¡BONUS MUY RARO! &f1 bloque de diamante&d.'
+
+trivia:
+    rewards:
+        reward_1:
+          data:
+            - '[consolecmd] eco give %player% 500'
+            - '[consolecmd] minecraft:give %player% minecraft:diamond 1'
+            - '[playermsg] &aRecompensa: &e$500 &8+ &f1 diamante&a.'
+        reward_2:
+          chance: 45
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:coal_block 2'
+            - '[playermsg] &aBonus: &f2 bloques de carbón&a.'
+        reward_3:
+          chance: 35
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_ingot 8'
+            - '[playermsg] &aBonus: &f8 lingotes de hierro&a.'
+        reward_4:
+          chance: 25
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_ingot 5'
+            - '[playermsg] &aBonus: &f5 lingotes de oro&a.'
+        reward_5:
+          chance: 18
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:lapis_block 2'
+            - '[playermsg] &aBonus: &f2 bloques de lapislázuli&a.'
+        reward_6:
+          chance: 12
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:emerald 3'
+            - '[playermsg] &aBonus: &f3 esmeraldas&a.'
+        reward_7:
+          chance: 8
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:redstone_block 2'
+            - '[playermsg] &aBonus: &f2 bloques de redstone&a.'
+        reward_8:
+          chance: 5
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:iron_block 1'
+            - '[playermsg] &eBonus especial: &f1 bloque de hierro&e.'
+        reward_9:
+          chance: 3
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:golden_apple 1'
+            - '[playermsg] &6Bonus raro: &f1 manzana dorada&6.'
+        reward_10:
+          chance: 2
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:gold_block 1'
+            - '[playermsg] &6Bonus raro: &f1 bloque de oro&6.'
+        reward_11:
+          chance: 1
+          data:
+            - '[consolecmd] minecraft:give %player% minecraft:diamond_block 1'
+            - '[playermsg] &d&l¡BONUS MUY RARO! &f1 bloque de diamante&d.'

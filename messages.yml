@@ -1,0 +1,274 @@
+unknown_command: '%prefix% &r&c✖ &fComando desconocido.'
+config_reloaded: '%prefix% &r&fLos archivos de configuración han sido recargados.'
+not_enough_permissions: '%prefix% &r&c✖ &fNo tienes permisos para ejecutar este comando.'
+player_only_command: '%prefix% &r&c✖ &fEste comando solo puede ser utilizado por jugadores.'
+
+cannot_start_from_disabled: '%prefix% &r&c✖ &fNo puedes iniciar un ChatGame en este mundo.'
+toggle_game: '%prefix% &r&a✔ &fEstado de los ChatGames: &a%state%&f.'
+game_started: '%prefix% &r&a✔ &fHas iniciado el evento &e%game%&f.'
+
+
+top:
+  header: '<center>&8&m------------&r &a&lTOP CHAT &8&m------------'
+  format: '&e#%spot% &8» &f%player% &8- &a&l%points% &7puntos'
+  player-stat-format: '<center>&7Tus victorias: &a&l%player_points%'
+  footer: '<center>&8&m--------------------------------'
+  
+  no_data_message: '%prefix% &r&e⚠ &fTodavía no existen estadísticas. &a¡Participa en un ChatGame!'
+
+
+help_command:
+  - '&8&m-------------------------------------------------'
+  - '&a&l                 CHAT GAMES'
+  - ''
+  - '&e&l              COMANDOS DISPONIBLES'
+  - ''
+  - '&a/chatgames <tipo> &8» &fInicia un juego manualmente.'
+  - '&a/chatgames top &8» &fMuestra el &eTop 10 &fde jugadores.'
+  - '&a/chatgames toggle &8» &fActiva o desactiva los ChatGames.'
+  - '&a/chatgames reload &8» &fRecarga la configuración.'
+  - ''
+  - '&8&m-------------------------------------------------'
+  - '&e&l              ✦ TIPOS DE JUEGO ✦'
+  - ''
+  - '&f• &aunscramble &8» &7Ordena correctamente la palabra.'
+  - '&f• &aunreverse &8» &7Descubre la palabra escrita al revés.'
+  - '&f• &areaction &8» &7Escribe el texto lo más rápido posible.'
+  - '&f• &afillout &8» &7Completa correctamente la palabra.'
+  - '&f• &arandom &8» &7Copia correctamente el código generado.'
+  - '&f• &amath &8» &7Resuelve una operación matemática.'
+  - '&f• &avariable &8» &7Descubre el valor correcto del símbolo.'
+  - '&f• &atrivia &8» &7Responde correctamente una pregunta.'
+  - ''
+  - '&8&m-------------------------------------------------'
+
+
+unscramble:
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lCHAT GAME &8&m------------'
+    - ''
+    - '<center>&fOrdena correctamente esta palabra:'
+    - '<center>&a&l%word%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos &7para responder.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &fordenó correctamente &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie respondió dentro de &e%timeToGuess% segundos&7.'
+    - '<center>&fRespuesta correcta: &a%correct_answer%'
+    - ''
+
+
+unreverse:
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lCHAT GAME &8&m------------'
+    - ''
+    - '<center>&fDescubre la palabra escrita al revés:'
+    - '<center>&a&l%word%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos &7para responder.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &fdescubrió correctamente &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie consiguió resolver la palabra.'
+    - '<center>&fRespuesta correcta: &a%correct_answer%'
+    - ''
+
+
+reaction:
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lREACCIÓN &8&m------------'
+    - ''
+    - '<center>&f¡Escribe rápidamente esta palabra!'
+    - '<center>&a&l%word%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos&7.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &ffue el más rápido en escribir &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie escribió la palabra a tiempo.'
+    - '<center>&fRespuesta correcta: &a%correct_answer%'
+    - ''
+
+
+fillout:
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lCOMPLETA &8&m------------'
+    - ''
+    - '<center>&fCompleta correctamente esta palabra:'
+    - '<center>&a&l%word%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos &7para responder.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &fcompletó correctamente &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie consiguió completar la palabra.'
+    - '<center>&fRespuesta correcta: &a%correct_answer%'
+    - ''
+
+
+random:
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lCÓDIGO RÁPIDO &8&m------------'
+    - ''
+    - '<center>&f¡Copia exactamente este código!'
+    - '<center>&a&l%random%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos&7.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &ffue el más rápido en copiar &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie consiguió escribir el código correctamente.'
+    - '<center>&fCódigo correcto: &a%correct_answer%'
+    - ''
+
+
+math:
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lMATEMÁTICAS &8&m------------'
+    - ''
+    - '<center>&fResuelve la siguiente operación:'
+    - '<center>&a&l%equation%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos &7para responder.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &frespondió correctamente &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie resolvió la operación a tiempo.'
+    - '<center>&fResultado correcto: &a%correct_answer%'
+    - ''
+
+
+variable:
+  line1and2-format: '&a%symbol% &f+ &a%symbol% &f+ &a%symbol% &f= &e'
+  line3-format: '&a%symbol_1% &f+ &a%symbol_2% &f+ &b%toGet% &f= &e%result%'
+
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lVARIABLE &8&m------------'
+    - ''
+    - '<center>&fDescubre el valor de: &a&l%symbol%'
+    - ''
+    - '<center>%line_1%'
+    - '<center>%line_2%'
+    - '<center>%line_3%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos &7para responder.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &fencontró el resultado correcto: &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie consiguió resolver el desafío.'
+    - '<center>&fResultado correcto: &a%correct_answer%'
+    - ''
+
+
+trivia:
+  gameStartAnnouncement:
+    - ''
+    - '<center>&8&m------------&r &a&lTRIVIA &8&m------------'
+    - ''
+    - '<center>&fResponde correctamente:'
+    - ''
+    - '<center>&a&l%question%'
+    - ''
+    - '<center>&7Tienes &e%timeToGuess% segundos &7para responder.'
+    - ''
+
+  correct_message:
+    - ''
+    - '<center>&8&m------------&r &a&l¡GANADOR! &8&m------------'
+    - ''
+    - '<center>&a%player% &frespondió correctamente: &e%correct_answer%&f.'
+    - '<center>&7Tiempo: &e%time%s &8• &a¡Premio entregado!'
+    - ''
+
+  time_expired_message:
+    - ''
+    - '<center>&8&m------------&r &c&lTIEMPO AGOTADO &8&m------------'
+    - ''
+    - '<center>&7Nadie respondió correctamente a tiempo.'
+    - '<center>&fRespuesta correcta: &a%correct_answer%'
+    - ''
