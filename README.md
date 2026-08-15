@@ -1,152 +1,148 @@
-# 🎮 ChatGames | Sistema de minijuegos interactivos
+# ChatGames | Sistema de minijuegos interactivos
 
-Configuración personalizada de **ChatGames** orientada a servidores Survival, diseñada para aumentar la interacción entre jugadores mediante diferentes desafíos ejecutados directamente desde el chat.
+Configuración personalizada del plugin **ChatGames** diseñada para servidores Survival, incorporando diferentes desafíos interactivos ejecutados directamente desde el chat del servidor.
 
-El sistema incorpora juegos de rapidez, lógica, matemáticas, palabras y trivia, además de un sistema de clasificación y recompensas que entrega **dinero y objetos útiles para Survival** a los jugadores ganadores.
+El objetivo principal de esta configuración es mejorar la participación de los jugadores mediante eventos rápidos de habilidad, lógica, velocidad y conocimiento, ofreciendo recompensas equilibradas mediante economía y objetos Vanilla.
 
 ---
 
-## ⚙️ Recarga de configuración
+# Configuración general
+
+## Recarga de configuración
 
 <img width="1117" height="144" alt="Captura de pantalla 2026-08-15 183127" src="https://github.com/user-attachments/assets/e52a17b4-1f44-4932-8ed4-67671601d965" />
 
-> Confirmación de la recarga correcta de los archivos de configuración mediante `/chatgames reload`, aplicando los cambios sin necesidad de reiniciar el servidor.
+Confirmación del correcto funcionamiento del comando de recarga, permitiendo aplicar cambios en la configuración del plugin sin necesidad de reiniciar el servidor.
 
 ---
 
-## 📋 Menú principal de comandos
+# Sistema de comandos
 
 <img width="1232" height="404" alt="Captura de pantalla 2026-08-15 183257" src="https://github.com/user-attachments/assets/37679dd1-abe4-4295-8651-8317196d1c7b" />
 
-> Menú de ayuda personalizado donde se muestran de forma clara los principales comandos administrativos y de consulta disponibles en ChatGames.
+Menú de ayuda personalizado donde se muestran los comandos principales del plugin, facilitando a los jugadores y administradores la gestión de los diferentes eventos.
 
 ---
 
-## 🎯 Tipos de juego disponibles
+# Tipos de juegos disponibles
 
 <img width="1211" height="457" alt="Captura de pantalla 2026-08-15 183301" src="https://github.com/user-attachments/assets/ef8543c1-e115-4d91-9a95-65033344de93" />
 
-> Listado de los diferentes modos de juego configurados, incluyendo palabras desordenadas, palabras invertidas, reacción, completar, código rápido, matemáticas, variables y trivia.
+Visualización de los modos de juego configurados dentro del sistema, incluyendo desafíos de palabras, velocidad, matemáticas y preguntas de conocimiento general.
 
 ---
 
-## 🏆 Ranking de jugadores
+# Ranking de jugadores
 
 <img width="1319" height="246" alt="Captura de pantalla 2026-08-15 183314" src="https://github.com/user-attachments/assets/b524f2ea-81a0-4796-821d-3c973c4e4bff" />
 
-> Sistema `TOP CHAT` que registra las victorias obtenidas y permite visualizar a los jugadores con mayor cantidad de puntos acumulados.
+Sistema de clasificación que registra las victorias obtenidas por los jugadores, permitiendo mostrar un ranking basado en puntos acumulados.
 
 ---
 
-## 🔄 Activación y desactivación
+# Control de eventos
 
 <img width="956" height="114" alt="Captura de pantalla 2026-08-15 183439" src="https://github.com/user-attachments/assets/6352efab-3b1c-412d-8d9d-bb7b48201a50" />
 
-> Ejemplo del sistema de activación y desactivación de los eventos mediante `/chatgames toggle`, permitiendo controlar rápidamente el funcionamiento de los minijuegos.
+Demostración del sistema de activación y desactivación de ChatGames mediante comandos administrativos.
 
 ---
 
-# 🕹️ Modos de juego
+# Modos de juego configurados
 
-## 🔀 Unscramble
+## Unscramble
 
 <img width="948" height="264" alt="Captura de pantalla 2026-08-15 183453" src="https://github.com/user-attachments/assets/978d2eb2-5e18-4ce6-941d-e9dc99619fae" />
 
-> Desafío de palabras desordenadas. El jugador debe identificar y escribir correctamente la palabra antes de que termine el tiempo establecido.
+Juego basado en palabras desordenadas donde los jugadores deben identificar la palabra correcta y responder antes que los demás participantes.
 
 ---
 
-## 🔁 Unreverse
+## Unreverse
 
 <img width="995" height="268" alt="Captura de pantalla 2026-08-15 183503" src="https://github.com/user-attachments/assets/4c6963f4-c78d-4b34-862b-6eef8b3bea59" />
 
-> Juego de palabras invertidas donde los participantes deben descubrir la palabra original y responder correctamente dentro del límite de tiempo.
+Desafío donde los jugadores deben descifrar una palabra escrita al revés y responder correctamente dentro del tiempo establecido.
 
 ---
 
-## ⚡ Reacción
+## Reaction
 
 <img width="884" height="265" alt="Captura de pantalla 2026-08-15 183511" src="https://github.com/user-attachments/assets/20ee08bc-8f3b-4797-88b3-cac9f96ba9ff" />
 
-> Prueba de velocidad en la que los jugadores deben escribir exactamente la palabra mostrada. El participante más rápido obtiene la victoria.
+Evento de velocidad de escritura donde gana el jugador que logra responder correctamente en el menor tiempo posible.
 
 ---
 
-## 🧩 Completar palabra
+## Fillout
 
 <img width="948" height="268" alt="Captura de pantalla 2026-08-15 183523" src="https://github.com/user-attachments/assets/bd954cf9-18f6-4869-98cc-c367f6cbda4f" />
 
-> Minijuego donde se presenta una palabra incompleta y los jugadores deben identificar las letras faltantes para reconstruirla correctamente.
+Sistema de completar palabras donde los participantes deben descubrir la respuesta correcta rellenando los caracteres faltantes.
 
 ---
 
-## ⌨️ Código rápido
+## Random
 
 <img width="951" height="267" alt="Captura de pantalla 2026-08-15 183533" src="https://github.com/user-attachments/assets/82d2a0ca-0bce-4125-87de-91710b0bffc9" />
 
-> Desafío de precisión y rapidez que genera una secuencia aleatoria. Los jugadores deben copiarla exactamente antes de finalizar el tiempo.
+Juego basado en códigos aleatorios generados automáticamente, donde los jugadores deben copiar exactamente la secuencia mostrada.
 
 ---
 
-## ➗ Matemáticas
+## Math
 
 <img width="935" height="269" alt="Captura de pantalla 2026-08-15 183542" src="https://github.com/user-attachments/assets/3073b928-fb5d-4a1f-b7ff-3c86cf698819" />
 
-> Evento matemático que genera operaciones automáticamente y premia al primer jugador que consiga resolver correctamente el cálculo.
+Desafío matemático que genera operaciones dinámicas y premia al jugador que consiga resolver correctamente el resultado.
 
 ---
 
-## 🧠 Variables
+## Variable
 
 <img width="943" height="377" alt="Captura de pantalla 2026-08-15 183551" src="https://github.com/user-attachments/assets/b9444316-04b2-442d-ab33-3434439d9205" />
 
-> Desafío de lógica matemática en el que se deben analizar diferentes ecuaciones para determinar correctamente el valor de la variable solicitada.
+Juego de lógica matemática donde los jugadores deben analizar valores y resolver ecuaciones para obtener la respuesta correcta.
 
 ---
 
-## ❓ Trivia
+## Trivia
 
 <img width="1245" height="341" alt="Captura de pantalla 2026-08-15 183600" src="https://github.com/user-attachments/assets/387689f9-ff97-4923-836c-559311c15984" />
 
-> Sistema de preguntas de trivia integrado al chat. Los jugadores disponen de un tiempo limitado para responder preguntas relacionadas con Minecraft y otros temas configurados.
+Sistema de preguntas configurado con una amplia variedad de temas, permitiendo a los jugadores competir respondiendo correctamente antes de finalizar el tiempo.
 
 ---
 
-# 🥇 Sistema de ganadores
+# Sistema de ganador y recompensas
 
 <img width="1104" height="200" alt="Captura de pantalla 2026-08-15 183609" src="https://github.com/user-attachments/assets/290804ff-2118-404d-9964-79fdaa5cd6e2" />
 
-> Al responder correctamente, el sistema anuncia automáticamente al ganador, muestra la respuesta correcta y registra el tiempo exacto utilizado para completar el desafío.
+Mensaje automático de victoria mostrando al jugador ganador, la respuesta correcta y el tiempo empleado durante el desafío.
 
 ---
-
-# 🎁 Recompensas
 
 <img width="816" height="132" alt="Captura de pantalla 2026-08-15 183614" src="https://github.com/user-attachments/assets/2e4a30e3-e36b-492e-b2af-30d3228f4008" />
 
-> Sistema de recompensas combinado que entrega dinero mediante la economía del servidor y objetos Vanilla como diamantes, lapislázuli y otros recursos útiles para Survival.
+Configuración de recompensas equilibradas para servidores Survival, combinando dinero mediante economía del servidor con objetos Vanilla como minerales, recursos y materiales útiles.
 
 ---
 
-## ✨ Características principales
+# Características principales
 
-* 🎮 **8 modalidades diferentes** de ChatGames.
-* ⚡ Eventos rápidos e interactivos directamente desde el chat.
-* 🏆 Sistema de puntos, victorias y clasificación.
-* 💰 Recompensas económicas para los ganadores.
-* 💎 Premios Vanilla como minerales, bloques y recursos.
-* 🧠 Desafíos de rapidez, memoria, lógica y conocimientos.
-* ❓ Amplia variedad de preguntas para Trivia.
-* 🔄 Configuración recargable sin reiniciar el servidor.
-* 🎨 Mensajes personalizados y visualmente organizados.
-* 🌲 Diseñado especialmente para una experiencia **Survival clásica y equilibrada**.
+* Configuración completa de ChatGames para servidores Survival.
+* Ocho modalidades diferentes de minijuegos.
+* Sistema de puntos y ranking de jugadores.
+* Recompensas económicas y objetos Vanilla.
+* Preguntas personalizadas para el modo Trivia.
+* Mensajes completamente configurados y personalizados.
+* Eventos rápidos para mejorar la interacción del chat.
+* Sistema equilibrado para mantener la progresión natural del servidor.
 
 ---
 
-## 📌 Objetivo
+# Objetivo del proyecto
 
-Esta configuración busca convertir el chat en una parte activa de la experiencia del servidor, ofreciendo pequeños eventos automáticos que incentivan la participación y recompensan a los jugadores sin interferir con la progresión natural del Survival.
+Esta configuración busca transformar el chat del servidor en una herramienta activa de interacción, creando pequeños eventos competitivos que mantengan a los jugadores participando constantemente.
 
-Los diferentes niveles de dificultad y modalidades permiten mantener los eventos variados, mientras que el sistema de recompensas genera un incentivo adicional para participar constantemente.
-
-> **Una forma sencilla de convertir el chat del servidor en un espacio competitivo, dinámico y entretenido.** 🎮
+Los diferentes modos de juego permiten añadir variedad a la experiencia Survival, ofreciendo recompensas sin afectar el equilibrio general del servidor.
