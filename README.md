@@ -1,0 +1,15 @@
+<img width="816" height="132" alt="Captura de pantalla 2026-08-15 183614" src="https://github.com/user-attachments/assets/040908ec-8ff9-4a1d-89f4-38fb5b77f70d" />
+<img width="1104" height="200" alt="Captura de pantalla 2026-08-15 183609" src="https://github.com/user-attachments/assets/ce83fd3c-e40a-4f47-99a7-153363306035" />
+<img width="1245" height="341" alt="Captura de pantalla 2026-08-15 183600" src="https://github.com/user-attachments/assets/0d534b24-2e99-4259-a82d-233082543df3" />
+<img width="943" height="377" alt="Captura de pantalla 2026-08-15 183551" src="https://github.com/user-attachments/assets/f98eaa44-80da-4ce4-b0ba-609fd2cb623a" />
+<img width="935" height="269" alt="Captura de pantalla 2026-08-15 183542" src="https://github.com/user-attachments/assets/9107febd-170f-466b-8440-31eda4676147" />
+<img width="951" height="267" alt="Captura de pantalla 2026-08-15 183533" src="https://github.com/user-attachments/assets/d4334e1d-a114-430e-bbaf-c255e7f91ae3" />
+<img width="948" height="268" alt="Captura de pantalla 2026-08-15 183523" src="https://github.com/user-attachments/assets/bc5e5c58-a81d-43df-be78-36db5d78787f" />
+<img width="884" height="265" alt="Captura de pantalla 2026-08-15 183511" src="https://github.com/user-attachments/assets/e89890c8-d973-435d-bbc2-ae81e28ca756" />
+<img width="995" height="268" alt="Captura de pantalla 2026-08-15 183503" src="https://github.com/user-attachments/assets/7602766a-c1e2-4ec1-8147-e1d6dd805cc2" />
+<img width="948" height="264" alt="Captura de pantalla 2026-08-15 183453" src="https://github.com/user-attachments/assets/9361e408-1ed4-46a9-9af4-8d926a5dad7f" />
+<img width="956" height="114" alt="Captura de pantalla 2026-08-15 183439" src="https://github.com/user-attachments/assets/661e3ae9-28be-4e34-93b3-e968d20bb70f" />
+<img width="1319" height="246" alt="Captura de pantalla 2026-08-15 183314" src="https://github.com/user-attachments/assets/9ff293e1-33eb-4041-9234-7a2c01f5d8f4" />
+<img width="1211" height="457" alt="Captura de pantalla 2026-08-15 183301" src="https://github.com/user-attachments/assets/715acb3e-cd17-4480-9e13-ce51a66c8bf3" />
+<img width="1232" height="404" alt="Captura de pantalla 2026-08-15 183257" src="https://github.com/user-attachments/assets/5e359bf6-f2e4-4ea5-b04f-1679c2de55d5" />
+<img width="1117" height="144" alt="Captura de pantalla 2026-08-15 183127" src="https://github.com/user-attachments/assets/b278c07a-e8ef-4b1a-984d-1628741e1f59" />
