@@ -127,22 +127,3 @@ Mensaje automático de victoria mostrando al jugador ganador, la respuesta corre
 Configuración de recompensas equilibradas para servidores Survival, combinando dinero mediante economía del servidor con objetos Vanilla como minerales, recursos y materiales útiles.
 
 ---
-
-# Características principales
-
-* Configuración completa de ChatGames para servidores Survival.
-* Ocho modalidades diferentes de minijuegos.
-* Sistema de puntos y ranking de jugadores.
-* Recompensas económicas y objetos Vanilla.
-* Preguntas personalizadas para el modo Trivia.
-* Mensajes completamente configurados y personalizados.
-* Eventos rápidos para mejorar la interacción del chat.
-* Sistema equilibrado para mantener la progresión natural del servidor.
-
----
-
-# Objetivo del proyecto
-
-Esta configuración busca transformar el chat del servidor en una herramienta activa de interacción, creando pequeños eventos competitivos que mantengan a los jugadores participando constantemente.
-
-Los diferentes modos de juego permiten añadir variedad a la experiencia Survival, ofreciendo recompensas sin afectar el equilibrio general del servidor.
